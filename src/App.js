@@ -3,22 +3,66 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <>
+    <div class="container">
+        <div class="card_head red">
+            <div class="first">
+                <div class="circle">1</div>
+                <p>Agenda/Topic</p>
+            </div>
+            <div class="second">
+                <p>SAAS-000</p>
+            </div>
+        </div>
+        <div class="card_body">
+            <p>Descripcion de la card</p>
+        </div>
+        <div class="card_feet">
+            <p>Mis Actualizaciones</p>
+            <p>14/07/2021</p>
+        </div>
     </div>
+
+    <div class="container">
+        <div class="card_head purple">
+            <div class="first">
+                <div class="circle">1</div>
+                <p>Agenda/Topic</p>
+            </div>
+            <div class="second">
+                <p>SAAS-000</p>
+            </div>
+        </div>
+        <div class="card_body">
+            <p>Descripcion de la card</p>
+        </div>
+        <div class="card_feet">
+            <p>Mis Actualizaciones</p>
+            <p>14/07/2021</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card_head blue">
+            <div class="first">
+                <div class="circle">1</div>
+                <p>Agenda/Topic</p>
+            </div>
+            <div class="second">
+                <p>SAAS-000</p>
+            </div>
+        </div>
+        <div class="card_body">
+            <p>Descripcion de la card</p>
+        </div>
+        <div class="card_feet">
+            <p>Mis Actualizaciones</p>
+            <p>14/07/2021</p>
+        </div>
+    </div>
+
+    </>
   );
 }
 

@@ -13,7 +13,7 @@ body{
   margin-bottom: 1em;
 }
 .container .card_head{
-  width: 100%;
+  width: 364px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,7 +49,8 @@ body{
   margin-left: .5em;
 }
 .container .card_head .second p{
-  margin-right: 1em;
+  width: 600px;
+  margin-right: 1gitem;
 }
 .container .card_body{
   padding: 1em .5em;
